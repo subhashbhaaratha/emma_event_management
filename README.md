@@ -6,3 +6,4 @@ This is the Event Management Platform for Emma’s Event Management business.
 - RSVP to events.
 - Search, filter, and view events.
 - User dashboards for event management.
+- Data Validation
