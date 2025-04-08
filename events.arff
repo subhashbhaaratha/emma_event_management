@@ -1,0 +1,59 @@
+@relation events
+
+@attribute location {London, Manchester, Coventry, Birmingham, Edinburgh, Leeds, Cardiff, Glasgow, Liverpool, Bristol, Newcastle, Sheffield, Oxford, Cambridge}
+@attribute date DATE "yyyy-MM-dd"
+@attribute description string
+@attribute event_type {Conference, Wedding, Workshop, Party}
+
+@data
+London,2025-02-20,"AI conference with workshops",Conference
+Manchester,2025-03-15,"Private family wedding",Wedding
+Coventry,2025-01-28,"Learn Java Basics",Workshop
+Birmingham,2025-12-31,"Celebrate the New Year",Party
+Edinburgh,2025-06-10,"Showcase of tech trends",Conference
+London,2025-03-05,"Intro to data science techniques",Workshop
+Leeds,2025-04-18,"Garden wedding celebration",Wedding
+Cardiff,2025-07-01,"Celebrate with graduates",Party
+Glasgow,2025-11-02,"Innovations in healthcare tech",Conference
+Liverpool,2025-08-15,"Intro to online safety",Workshop
+Bristol,2025-09-10,"Financial summit",Conference
+Newcastle,2025-05-25,"University graduation party",Party
+Sheffield,2025-10-20,"Corporate networking event",Conference
+Oxford,2025-04-05,"Cybersecurity fundamentals",Workshop
+Cambridge,2025-06-15,"Artificial Intelligence Bootcamp",Workshop
+Manchester,2025-08-20,"Exclusive wedding reception",Wedding
+Liverpool,2025-12-12,"Christmas Celebration",Party
+London,2025-07-08,"Tech Entrepreneurship Summit",Conference
+Cardiff,2025-09-22,"Startup Pitch Event",Conference
+Bristol,2025-02-15,"Data Science Workshop",Workshop
+Sheffield,2025-03-18,"Hackerthon Cybersecurity",Workshop
+Oxford,2025-05-12,"Mathematics Research Conference",Conference
+Cambridge,2025-07-30,"Physics Symposium",Conference
+Manchester,2025-09-05,"Wedding Party Celebration",Wedding
+Newcastle,2025-12-01,"New Year’s Eve Party",Party
+London,2025-10-15,"Networking event for business professionals",Conference
+Coventry,2025-03-22,"Web Development Workshop",Workshop
+Glasgow,2025-08-19,"Big Data Analytics Bootcamp",Workshop
+Leeds,2025-11-25,"Luxury Wedding Ceremony",Wedding
+Birmingham,2025-12-30,"End-of-year Company Party",Party
+Oxford,2025-06-12,"AI in Healthcare Summit",Conference
+Cambridge,2025-04-14,"Game Development Workshop",Workshop
+Liverpool,2025-08-18,"Summer Music Festival Afterparty",Party
+Bristol,2025-03-28,"Public Speaking Workshop",Workshop
+Newcastle,2025-10-05,"University Campus Party",Party
+Sheffield,2025-07-17,"Environmental Science Conference",Conference
+London,2025-05-25,"Investment & Stocks Workshop",Workshop
+Cardiff,2025-06-20,"Wedding Anniversary Celebration",Wedding
+Edinburgh,2025-08-10,"Government Tech Innovation Summit",Conference
+Manchester,2025-02-05,"Software Engineering Bootcamp",Workshop
+Glasgow,2025-11-15,"Medical Research Conference",Conference
+Liverpool,2025-07-04,"Independence Day Celebration",Party
+Leeds,2025-09-14,"Business Networking Event",Conference
+Coventry,2025-12-05,"Hackathon Programming Contest",Workshop
+Birmingham,2025-03-12,"Cultural Festival Celebration",Party
+Oxford,2025-06-02,"Machine Learning Symposium",Conference
+Cambridge,2025-10-09,"Cyber Defense Workshop",Workshop
+London,2025-04-27,"Corporate Charity Gala",Conference
+Manchester,2025-07-06,"Private Wedding Ceremony",Wedding
+Bristol,2025-08-28,"Charity Fundraising Event",Conference
+Sheffield,2025-12-18,"Christmas Family Party",Party
